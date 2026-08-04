@@ -22,3 +22,33 @@ __pycache__/
 *.avi
 rosbag2_*/
 *.db3
+
+# --- SO-101 실습 추가분 ---
+
+# colcon 빌드 산출물
+build/
+install/
+log/
+
+# rosbag
+rosbag2_*/
+*.db3
+*.mcap
+
+# 학습된 모델 가중치 (용량 큼, 재현은 문서의 학습 설정으로)
+*.pt
+*.onnx
+*.engine
+
+# 데이터셋 (원본 이미지·라벨은 커밋하지 않음)
+datasets/
+runs/
+
+# 파이썬
+__pycache__/
+*.py[cod]
+.venv/
+
+# 개인 설정 파일 (캘리브레이션 등 개체 고유값)
+myconfig/
+*.local.yaml
