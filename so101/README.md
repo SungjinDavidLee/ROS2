@@ -1,1 +1,3 @@
-
+- [so101](so101/) — SO-101 로봇암 프로젝트 (브링업 · URDF/TF · ros2_control · MoveIt2 · 비전 · 비주얼 서보잉)
+- [practice/basics](practice/basics/) — ROS 2 기본 개념 실습 (turtlesim)
+- [notes](notes/) — 개념 정리
