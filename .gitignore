@@ -15,3 +15,10 @@ __pycache__/
 .vscode/
 .idea/
 .DS_Store
+
+
+*.mp4
+*.mov
+*.avi
+rosbag2_*/
+*.db3
