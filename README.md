@@ -7,7 +7,9 @@ ROS 2 학습 기록.
 - `notes/` — 개념 정리
 - `practice/` — 실습 기록
 - `src/` — 실습 패키지
-
+- `so101/` — SO-101 로봇암 프로젝트 (브링업 · URDF/TF · ros2_control · MoveIt2 · 비전 · 비주얼 서보잉)
+- `practice/basics/` — ROS 2 기본 개념 실습 (turtlesim)
+- `notes/` — 개념 정리
 실습에서 쓴 패키지는 `src/`에 두고, `practice/` 쪽에서는 경로로 가리킴
 
 ## 기록 방식
