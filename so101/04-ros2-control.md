@@ -116,11 +116,13 @@ ros2 topic pub --once \
 ```
 [Screencast from 2026년 08월 05일 10시 22분 28초.webm](https://github.com/user-attachments/assets/cc423c1b-a453-4b56-bc53-62af031e7ae9)
 
-[Screencast from 2026년 08월 05일 10시 22분 44초.webm](https://github.com/user-attachments/assets/64b9402d-77d6-4cd2-b8a1-b770afda1f36)
 
 RViz 모델이 **3초에 걸쳐 부드럽게** 회전한다.
 컨트롤러가 시작점과 목표점 사이를 보간해 중간 지점을 계속 만들어낸다
 (로그에 `Using 'splines' interpolation method`).
+
+[Screencast from 2026년 08월 05일 10시 22분 44초.webm](https://github.com/user-attachments/assets/64b9402d-77d6-4cd2-b8a1-b770afda1f36)
+
 
 **관절 값 6개를 전부 넣어야 한다.** 이 컨트롤러는 `allow_partial_joints_goal: false`이므로
 일부만 보내면 거부된다. 움직이지 않을 관절은 현재값을 그대로 넣는다.
